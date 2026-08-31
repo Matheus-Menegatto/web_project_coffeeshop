@@ -120,16 +120,12 @@
   color: #838383;
 }
 
-.content {
-  min-height: 720px;
-  max-height: 800px;
+.recipes {
   background: url("../images/background_recipes.svg") no-repeat center;
   background-color: #0a2750;
   background-size: cover;
-}
-
-.recipes {
   padding-top: 100px;
+  padding-bottom: 215px;
 }
 
 .recipes__title {
@@ -161,7 +157,6 @@
   gap: 40px;
   justify-content: center;
   padding-top: 80px;
-  padding-bottom: 215px;
 }
 
 .recipes__iframe {
@@ -182,4 +177,93 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+
+.reservation {
+  min-height: 720px;
+  max-height: 1000px;
+  background: url(../images/background_reservation.svg) no-repeat center;
+  background-size: cover;
+  background-position: center center;
+  background-color: #d9e7ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation__title {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+}
+
+.reservation__form {
+  border-radius: 4px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__form:hover {
+  opacity: 70%;
+}
+
+.reservation__fieldset {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.reservation__label {
+  margin-bottom: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__input {
+  width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border: 1px solid #838383;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reservation__button {
+  width: 385px;
+  height: 60px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #2f80ed;
+}
+
+.reservation__checkbox {
+}
+
+.reservation__checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
 }
