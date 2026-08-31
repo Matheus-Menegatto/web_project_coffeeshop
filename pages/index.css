@@ -180,19 +180,17 @@
 }
 
 .reservation {
-  min-height: 720px;
-  max-height: 1000px;
   background: url(../images/background_reservation.svg) no-repeat center;
   background-size: cover;
   background-position: center center;
   background-color: #d9e7ff;
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
 }
 
 .reservation__title {
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 0;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -200,6 +198,7 @@
   line-height: 52px;
   display: flex;
   justify-content: center;
+  padding-bottom: 80px;
 }
 
 .form {
