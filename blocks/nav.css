@@ -12,6 +12,7 @@
 }
 
 .nav__links {
+  color: #2f80ed;
   display: flex;
   flex-wrap: nowrap;
   column-gap: 20px;

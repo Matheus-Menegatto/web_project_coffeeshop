@@ -74,6 +74,7 @@
   line-height: 20px;
   color: #ffffff;
   background-color: #2f80ed;
+  opacity: 70%;
 }
 
 .reservation__checkbox {
