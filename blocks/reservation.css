@@ -22,6 +22,9 @@
   margin-right: auto;
 }
 
+.reservation__form {
+}
+
 .reservation__form:hover {
   opacity: 70%;
 }
