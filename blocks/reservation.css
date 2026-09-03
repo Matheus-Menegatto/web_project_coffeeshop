@@ -22,12 +22,6 @@
   margin-right: auto;
 }
 
-.reservation__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .reservation__form:hover {
   opacity: 70%;
 }
